@@ -141,7 +141,7 @@ class OverlayShowingService extends Service implements OnTouchListener, OnClickL
     @Override
     public void onClick(View v) {
         //Toast.makeText(this, "No u", Toast.LENGTH_SHORT).show();
-        // stopSelf();
+        stopSelf();
 
         }
 
